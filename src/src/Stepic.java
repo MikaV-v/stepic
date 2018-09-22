@@ -3,7 +3,7 @@ import java.util.*;
 import java.math.*;
 import java.io.*;
 
-public class stepic {
+public class Stepic {
     public static void main(String[] args) {
         char[] testChars = new char[]{'a'};
         String in = new String(testChars);
