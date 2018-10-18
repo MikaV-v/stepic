@@ -1,0 +1,23 @@
+/*
+from stepic my code function
+*/
+
+
+static int[] sort(int[] a){
+            boolean sortstat = false;
+            int buf;
+            while (!sortstat) {
+                sortstat = true;
+                for (int i = 0; i < a.length - 1; i++) {
+                    if (a[i] > a[i + 1]) {
+                        sortstat = false;
+
+                        buf = a[i];
+                        a[i] = a[i + 1];
+                        a[i + 1] = buf;
+                    }
+                }
+
+            }
+            return a;
+        }
